@@ -1,3 +1,23 @@
+# PUMA - Plataforma Unificada de Metodologias Ativas
+
+Repositório para documentação do projeto PUMA, desenvolvido pelos membros das disciplinas Metódos de Desenvolvimento de Software (MDS) e Engenharia do Produto de Software (EPS).
+
+## Repositórios de Implementação
+
+[Deploy](https://github.com/fga-eps-mds/2023-1-PUMA-Deploy)
+
+[Front-end](https://github.com/fga-eps-mds/2023-1-PUMA-Frontend)
+
+[Api Gateway](https://github.com/fga-eps-mds/2023-1-PUMA-ApiGateway)
+
+[User Service](https://github.com/fga-eps-mds/2023-1-PUMA-UserService)
+
+[Project Service](https://github.com/fga-eps-mds/2023-1-PUMA-ProjectService)
+
+[Alocate Service](https://github.com/fga-eps-mds/2023-1-PUMA-AlocateService)
+
+[Notify Service](https://github.com/fga-eps-mds/2023-1-PUMA-NotifyService)
+
 ## PUMA - Desenvolvimento Local
 
 1. Crie uma pasta para armazenar os repositórios do projeto.
