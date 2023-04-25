@@ -6,6 +6,8 @@
 
 3. Insira a [pasta envs](https://unbbr-my.sharepoint.com/:f:/g/personal/180018019_aluno_unb_br1/EqlwIZQENe9OsQJqmCI0gnMBflLads2MaoXcvC9UCqO8Ow?e=CKCvmX) dentro da pasta criada.
 
+4. Recupere o IP da sua máquina(ifconfig) e insira nas variáveis de IP dos .envs que estão dentro da pasta envs.
+
 5. Entre na pasta criada a partir do terminal.
 
 6. Clone os repositórios do projeto:
@@ -18,7 +20,7 @@
         ```console
         source clone_repos_http.sh
         ```
-
+        
 7. Utilize o script move_envs.sh para mover todos os .envs para os seus respectivos repositórios.
     ```console
     source move_envs.sh
