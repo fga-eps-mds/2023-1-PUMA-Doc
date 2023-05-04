@@ -14,9 +14,60 @@ Repositório para documentação do projeto PUMA, desenvolvido pelos membros das
 
 [Project Service](https://github.com/fga-eps-mds/2023-1-PUMA-ProjectService)
 
-[Alocate Service](https://github.com/fga-eps-mds/2023-1-PUMA-AlocateService)
+## Time
 
-[Notify Service](https://github.com/fga-eps-mds/2023-1-PUMA-NotifyService)
+**Nome**          | **Matricula** | **GitHub**
+------------------|:-------------:|:----------:
+Daniel Barcelos   |   170101711   | daniel-bm
+Juliana Pereira   |   180124099   | julianavalle
+Thiago Mesquita   |   180138545   | thiagompc
+Rafael Leão       |   190019158   | Rafaelltm
+Abner Filipe      |   190041871   | abner423
+Guilherme Daniel  |   180018019   | guilhermedfs
+Ítalo Alves       |   180113666   | alvesitalo
+Guilherme Basílio |   160007615   | GuilhermeBES
+Mateus Santos     |   200024825   | 14luke08
+Arthur Marmo      |   211043610   | artmarmocathala
+Pedro Felipe      |   170020428   | Pedrosorroche
+Daniela Pinheiro  |   202016088   | danipinheiroo
+João Paulo        |   202045141   | joaombc
+Altino Arthur     |   211030658   | arthurrochamoreira
+Gabriel Basto     |   202023663   | Bertolazi
+Caio Mesquita     |   222024283   | Caiomesvie
+João Pedro        |   211061968   | JoosPerro
+
+
+## GitHub Pages - Desenvolvimento Local
+
+### Dependências
+
+Virtualenv:
+```console
+pip3 install virtualenv
+```
+
+### Preparando Ambiente e Subindo Servidor
+
+No diretório raiz do repositório, crie o ambiente:
+```console
+virtualenv -p python3 env
+```
+
+Ative o ambiente:
+
+```console
+source env/bin/activate
+```
+
+Instale o Material mkdocs:
+```console
+pip3 install mkdocs-material
+```
+
+Inicie o servidor de desenvolvimento:
+```console
+mkdocs serve
+```
 
 ## PUMA - Desenvolvimento Local
 
