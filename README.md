@@ -4,8 +4,6 @@ Repositório para documentação do projeto PUMA, desenvolvido pelos membros das
 
 ## Repositórios de Implementação
 
-[Deploy](https://github.com/fga-eps-mds/2023-1-PUMA-Deploy)
-
 [Front-end](https://github.com/fga-eps-mds/2023-1-PUMA-Frontend)
 
 [Api Gateway](https://github.com/fga-eps-mds/2023-1-PUMA-ApiGateway)
