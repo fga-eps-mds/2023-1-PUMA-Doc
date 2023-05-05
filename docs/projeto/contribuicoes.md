@@ -73,6 +73,7 @@ hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug
 
 <a id="ref1"></a>
 [1] O que são Commits Semânticos e como utilizo?. Disponível em: <https://www.letscode.com.br/blog/o-que-sao-commits-semanticos-e-como-utilizo>. Acesso em: maio, 2023.
+
 <a id="ref2"></a>
 [2] Fluxo de trabalho de Gitflow. Disponível em: <https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=O%20que%20%C3%A9%20o%20Gitflow,por%20Vincent%20Driessen%20no%20nvie.>. Acesso em: maio, 2023.
 
