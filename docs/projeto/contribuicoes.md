@@ -6,15 +6,15 @@ Este Plano de Contribuição determina as regras para submissão de códigos e c
 
 ## Issues
 
-Todas as contribuições devem estar vinculadas a uma única *issues*, e todas as *issues* devem ser criadas e preenchidas de acordo com os templates disponíveis no repositório.
+Todas as contribuições devem estar vinculadas a uma única _issues_, e todas as _issues_ devem ser criadas e preenchidas de acordo com os templates disponíveis no repositório.
 
-Cada *issue* também deve possuir  *Assignees*, responsáveis por desenvolvê-la, e *labels* para indicar o tipo de *issue*.
+Cada _issue_ também deve possuir _Assignees_, responsáveis por desenvolvê-la, e _labels_ para indicar o tipo de _issue_.
 
-## Commits 
+## Commits
 
-Os *commits* devem ser na língua portuguesa, curtos e simples, de forma a expor objetivamente o trabalho que foi feito naquele *commit*.
+Os _commits_ devem ser na língua inglesa, curtos e simples, de forma a expor objetivamente o trabalho que foi feito naquele _commit_.
 
-Caso o *commit* seja resultado de um trabalho em equipe, deve-se utilizar o *Co-authored-by:*
+Caso o _commit_ seja resultado de um trabalho em equipe, deve-se utilizar o _Co-authored-by:_
 
 Visando uma melhor padronização, utilizaremos o commit semântico, que pode ser conferido e acessado através deste [link](https://www.letscode.com.br/blog/o-que-sao-commits-semanticos-e-como-utilizo).
 
@@ -25,7 +25,7 @@ Os commits semânticos possuem um esqueleto padrão que consiste em partes opcio
 ```
 <tipo>: <descrição>
 
-Exemplo: 
+Exemplo:
 Fix: Corrigindo redirecionamento de usuario ao se cadastrar na plataforma
 ```
 
@@ -43,19 +43,20 @@ Test: Utilizado quando feita qualquer alteração em relação aos testes do pro
 
 ## Pull Requests
 
-Os *pull requests* devem estar obrigatoriamente vinculados a uma *issue*. É necessário também a inclusão de *Reviewers*, responsáveis por verificar a conclusão da *issue* e a validade do *pull request*. O *pull request* só poderá ser mergeado com a aprovação de pelo menos dois *Reviewers*. 
+Os _pull requests_ devem estar obrigatoriamente vinculados a uma _issue_. É necessário também a inclusão de _Reviewers_, responsáveis por verificar a conclusão da _issue_ e a validade do _pull request_. O _pull request_ só poderá ser mergeado com a aprovação de pelo menos dois _Reviewers_.
 
 ## Branches
 
-Com exceção das *branches* principais (*main, gh-pages, devel*), cada *branch* deve estar vinculada a uma única *issue*. Após a conclusão da *issue* e fechamento do *pull request* associado, a *branch* referente não pode ser apagada, porque ela será utilizada para organização de pacotes de entregas para a release. Para uma correta padronização das branchs e fluxo, utilizaremos o [Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=O%20que%20%C3%A9%20o%20Gitflow,por%20Vincent%20Driessen%20no%20nvie.) [[2]](#ref2).
+Com exceção das _branches_ principais (_main, gh-pages, devel_), cada _branch_ deve estar vinculada a uma única _issue_. Após a conclusão da _issue_ e fechamento do _pull request_ associado, a _branch_ referente não pode ser apagada, porque ela será utilizada para organização de pacotes de entregas para a release. Para uma correta padronização das branchs e fluxo, utilizaremos o [Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=O%20que%20%C3%A9%20o%20Gitflow,por%20Vincent%20Driessen%20no%20nvie.) [[2]](#ref2).
 
 ![Gitflow](../assets/gitflow.svg)
 
 Para manter o padrão criaremos a branch bem parecido com o commit, sendo adotado os seguintes padrões:
+
 ```
 <tipo>/<descrição>
 
-Exemplo: 
+Exemplo:
 feature/migracao-orm
 fix/redirecionamento-usuario
 hotfix/redirecionamento-senha
@@ -68,7 +69,6 @@ documentation: Utilizado quando é necessário abrir uma branch de documentaçã
 hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug em produção no projeto.
 ```
 
-
 ## Referência
 
 <a id="ref1"></a>
@@ -79,6 +79,7 @@ hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug
 
 ## Histórico de Revisão
 
-| Data       | Versão |      Modificação      |     Autor    |
-| :--------- | :----- | :-------------------- | :----------- |
-| 05/05/2023 | 0.1    | Abertura do documento.| Abner Filipe |
+| Data       | Versão | Modificação                     | Autor        |
+| :--------- | :----- | :------------------------------ | :----------- |
+| 05/05/2023 | 0.1    | Abertura do documento.          | Abner Filipe |
+| 05/05/2023 | 0.2    | Correção e revisão do documento | Rafael Leão  |
