@@ -12,6 +12,8 @@ Repositório para documentação do projeto PUMA, desenvolvido pelos membros das
 
 [Project Service](https://github.com/fga-eps-mds/2023-1-PUMA-ProjectService)
 
+[External Service](https://github.com/fga-eps-mds/2023-1-PUMA-ExternalService)
+
 ## Time
 
 **Nome**          | **Matricula** | **GitHub**
@@ -94,11 +96,7 @@ mkdocs serve
     ```console
     source move_envs.sh
     ```
-   
-8. Alterar o eslint no arquivo package.json para a versão "^6.0.0".
-
-9. Remover os atributos "es2021": true e "ecmaVersion": 12 do arquivo .eslintrc.json.
-
+    
 10. Entre no repositório Api-Gateway e execute:
     ```console
     make up-build
