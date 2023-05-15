@@ -97,14 +97,14 @@ mkdocs serve
     source move_envs.sh
     ```
     
-10. Entre no repositório Api-Gateway e execute:
+8. Entre no repositório Api-Gateway e execute:
     ```console
     make up-build
     ```
 
-11. Após subir todos os containers com _make up-build_, abra outro terminal na pasta criada na etapa 1 e popule o banco de dados da aplicação:
+9. Após subir todos os containers com _make up-build_, abra outro terminal na pasta criada na etapa 1 e popule o banco de dados da aplicação:
     ```console
     source db_script.sh populate
     ```
 
-12.   Pronto ! Agora é só acessar http://localhost:8080/
+10.   Pronto ! Agora é só acessar http://localhost:8080/
