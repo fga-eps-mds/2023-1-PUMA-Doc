@@ -26,7 +26,7 @@ Os commits semânticos possuem um esqueleto padrão que consiste em partes opcio
 <tipo>: <descrição>
 
 Exemplo:
-Fix: Corrigindo redirecionamento de usuario ao se cadastrar na plataforma
+Fix: Fix user redirection upon sign up
 ```
 
 A primeira e principal descrição de um commit semântico é o Tipo. Tem como finalidade dizer o que aquele commit está realizando. Os tipos se resumem em feat, fix, refactor, style, chore, doc e test [[1]](#ref1).
@@ -57,9 +57,9 @@ Para manter o padrão criaremos a branch bem parecido com o commit, sendo adotad
 <tipo>/<descrição>
 
 Exemplo:
-feature/migracao-orm
-fix/redirecionamento-usuario
-hotfix/redirecionamento-senha
+feature/orm-migration
+fix/user-redirection
+hotfix/password-redirection
 
 
 feature: Utilizado quando feita qualquer nova implementação de funcionalidade no sistema.
@@ -83,3 +83,4 @@ hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug
 | :--------- | :----- | :------------------------------ | :----------- |
 | 05/05/2023 | 0.1    | Abertura do documento.          | Abner Filipe |
 | 05/05/2023 | 0.2    | Correção e revisão do documento | Rafael Leão  |
+| 18/05/2023 | 0.3    | Correção dos exemplos           | Juliana Valle|
