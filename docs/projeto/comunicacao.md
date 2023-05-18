@@ -1,4 +1,5 @@
 # Plano de Comunicação
+<style>body {text-align: justify}</style>
 
 ## Introdução
 

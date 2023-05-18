@@ -1,4 +1,5 @@
 # Estrutura Analítica de Projetos
+<style>body {text-align: justify}</style>
 
 ## Introdução
 Segundo Vargas (2015, p. 51), a Estrutura Analítica do Projeto (EAP), também conhecida como WBS - Work Breakdown Structure, é a ferramenta de gerenciamento do escopo do projeto. Cada nível descendente do projeto representa um aumento no nível de detalhamento do projeto, como se fosse um organograma (hierárquico). O detalhamento pode ser realizado até o nível desejado, apresentando dados genéricos ou detalhados. [[1]](#ref1)

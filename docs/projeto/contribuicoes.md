@@ -1,4 +1,5 @@
 # Plano de Contribuição
+<style>body {text-align: justify}</style>
 
 ## Introdução
 

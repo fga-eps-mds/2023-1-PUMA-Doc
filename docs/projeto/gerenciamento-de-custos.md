@@ -1,4 +1,4 @@
-# Plano de gerenciamento de custos
+# Plano de Gerenciamento de Custos
 <style>body {text-align: justify}</style>
 
 ## Introdução 
