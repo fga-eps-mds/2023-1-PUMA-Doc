@@ -10,7 +10,7 @@ Este documento tem como objetivo explanar os métodos utilizados pela equipe dur
 
 Os métodos ágeis são projetados para produzir software útil rapidamente. Eles são baseados no desenvolvimento incremental. Os incrementos são pequenos e uma nova versão do sistema geralmente é criada e fornecida aos clientes a cada duas ou três semanas, para que seja possível obter um feedback rapidamente sobre as mudanças nos requisitos. Além disso, esses métodos minimizam a documentação usando comunicação informal no lugar de reuniões formais com documentos escritos.
 
-Os métodos ágeis consideram o design e a implementação como atividades centrais no processo de software. Eles incorporam outras tarefas a essas atividades, como a elicitação dos requisitos e os testes. Apesar de existirem diversos processos ágeis, todos compartilham um conjunto de princípios com base no manifesto ágil e foi descrito por Sommerville, Ian (2019, p. 61):
+Os métodos ágeis consideram o design e a implementação como atividades centrais no processo de software. Eles incorporam outras tarefas a essas atividades, como a elicitação dos requisitos e os testes. Apesar de existirem diversos processos ágeis, todos compartilham um conjunto de princípios com base no manifesto ágil e foi descrito por Sommerville, Ian (2019, p. 61) [[1]](#ref1):
 
 <center>
 
@@ -26,7 +26,7 @@ Os métodos ágeis consideram o design e a implementação como atividades centr
 
 ## 3. Extreme Programming (XP)
 
-Extreme Programming, mais conhecido como XP, é uma metodologia ágil de desenvolvimento de software que tem como objetivo produzir software de alta qualidade e, também, melhor qualidade de vida para a equipe de desenvolvimento. A metodologia XP capacita seus desenvolvedores a lidarem com confiança às mudanças nos requisitos do cliente, mesmo no final do ciclo de vida. Além disso, Don Wells (1999) diz que a XP é configurada para pequenos grupos de programadores. A equipe XP inclui não apenas os desenvolvedores, mas também os gerentes e clientes, todos trabalhando juntos.
+Extreme Programming, mais conhecido como XP, é uma metodologia ágil de desenvolvimento de software que tem como objetivo produzir software de alta qualidade e, também, melhor qualidade de vida para a equipe de desenvolvimento. A metodologia XP capacita seus desenvolvedores a lidarem com confiança às mudanças nos requisitos do cliente, mesmo no final do ciclo de vida. Além disso, Don Wells (1999) [[3]](#ref3) diz que a XP é configurada para pequenos grupos de programadores. A equipe XP inclui não apenas os desenvolvedores, mas também os gerentes e clientes, todos trabalhando juntos.
 
 Os requisitos se baseiam em histórias simples dos clientes (histórias de usuário) e são utilizados como base para decidir qual funcionalidade deve ser incluída em um determinado incremento. Os programadores trabalham em pares (pair programming) e desenvolvem testes para cada tarefa antes de escreverem o código. Todos os testes devem ser executados com sucesso quando o novo código é integrado ao sistema, já que há um curto intervalo de tempo entre as releases do sistema.
 
@@ -78,15 +78,33 @@ A aplicação detalhada da *Lean Inception* encontra-se no [Documento de Visão 
 
 ## 6. Referência
 
-> - Sommerville, Ian. **Engenharia de software**. 10. ed. São Paulo: Pearson Addison Wesley, 2019.
-> - Foggetti, Cristiano. **Gestão ágil de projetos**. São Paulo: Education do Brasil, 2014.
-> - Wells, Don. Extreme Programming: A gentle introduction. **Extreme Programming**, 1999. Disponível em: http://www.extremeprogramming.org/
-> - Metodologias ágeis: o que é Pair Programming?. **Programadores Brasil**, 2020. Disponível em: https://programadoresbrasil.com.br/2020/04/o-que-e-pair-programming/
-> - Metodologia Ágil: O que é Kanban. **Programadores Brasil**, 2020. Disponível em: https://programadoresbrasil.com.br/2020/02/metodologia-agil-o-que-e-kanban/
-> - Extreme Programming. **Agile Alliance**. Disponível em: https://www.agilealliance.org/glossary/xp/#.YRnn2znQQyc
-> - Metodologia Ágil: O que é Scrum. **Programadores Brasil**, 2020. Disponível em: https://programadoresbrasil.com.br/2020/02/o-que-e-scrum-metodologia-agil/
-> - Ken, SCHWABER; SUTHERLAND, Jeff. The Scrum Guide. **Scrum Guides**. Disponível em: [ttps://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100). Acesso em: 10 dez. 2022.
-> - The Rules of Extreme Programming. **Extreme Programming**. Disponível em: [http://www.extremeprogramming.org/rules.html](http://www.extremeprogramming.org/rules.html).
+<a id="ref1"></a>
+[1] Sommerville, Ian. **Engenharia de software**. 10. ed. São Paulo: Pearson Addison Wesley, 2019.
+
+<a id="ref2"></a> 
+[2] Foggetti, Cristiano. **Gestão ágil de projetos**. São Paulo: Education do Brasil, 2014.
+
+<a id="ref3"></a>
+[3] Wells, Don. Extreme Programming: A gentle introduction. **Extreme Programming**, 1999. Disponível em: [http://www.extremeprogramming.org/](http://www.extremeprogramming.org/)
+
+<a id="ref4"></a>
+[4]
+Metodologias ágeis: o que é Pair Programming?. **Programadores Brasil**, 2020. Disponível em: [https://programadoresbrasil.com.br/2020/04/o-que-e-pair-programming/](https://programadoresbrasil.com.br/2020/04/o-que-e-pair-programming/)
+
+<a id="ref5"></a>
+[5] Metodologia Ágil: O que é Kanban. **Programadores Brasil**, 2020. Disponível em: [https://programadoresbrasil.com.br/2020/02/o-que-e-scrum-metodologia-agil/](https://programadoresbrasil.com.br/2020/02/metodologia-agil-o-que-e-kanban/)
+
+<a id="ref6"></a>
+[6] Extreme Programming. **Agile Alliance**. Disponível em: [https://programadoresbrasil.com.br/2020/02/o-que-e-scrum-metodologia-agil/](https://www.agilealliance.org/glossary/xp/#.YRnn2znQQyc)
+
+<a id="ref7"></a> 
+[7] Metodologia Ágil: O que é Scrum. **Programadores Brasil**, 2020. Disponível em: [https://programadoresbrasil.com.br/2020/02/o-que-e-scrum-metodologia-agil/](https://programadoresbrasil.com.br/2020/02/o-que-e-scrum-metodologia-agil/)
+
+<a id="ref8"></a>
+[8] Ken, SCHWABER; SUTHERLAND, Jeff. The Scrum Guide. **Scrum Guides**. Disponível em: [https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf#zoom=100)
+
+<a id="ref9"></a>
+[9] The Rules of Extreme Programming. **Extreme Programming**. Disponível em: [http://www.extremeprogramming.org/rules.html](http://www.extremeprogramming.org/rules.html).
 
 
 ## 7. Histórico de Revisão
