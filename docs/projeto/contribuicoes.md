@@ -1,17 +1,17 @@
 # Plano de Contribuição
 <style>body {text-align: justify}</style>
 
-## Introdução
+## 1. Introdução
 
 Este Plano de Contribuição determina as regras para submissão de códigos e contribuições nos repositórios do Projeto PUMA no semestre 2023-1.
 
-## Issues
+## 2. Issues
 
 Todas as contribuições devem estar vinculadas a uma única _issues_, e todas as _issues_ devem ser criadas e preenchidas de acordo com os templates disponíveis no repositório.
 
 Cada _issue_ também deve possuir _Assignees_, responsáveis por desenvolvê-la, e _labels_ para indicar o tipo de _issue_.
 
-## Commits
+## 3. Commits
 
 Os _commits_ devem ser na língua inglesa, curtos e simples, de forma a expor objetivamente o trabalho que foi feito naquele _commit_.
 
@@ -42,11 +42,11 @@ Doc: Utilizado quando é adicionado ou atualizado alguma documentação no proje
 Test: Utilizado quando feita qualquer alteração em relação aos testes do projeto.
 ```
 
-## Pull Requests
+## 4. Pull Requests
 
 Os _pull requests_ devem estar obrigatoriamente vinculados a uma _issue_. É necessário também a inclusão de _Reviewers_, responsáveis por verificar a conclusão da _issue_ e a validade do _pull request_. O _pull request_ só poderá ser mergeado com a aprovação de pelo menos dois _Reviewers_.
 
-## Branches
+## 5. Branches
 
 Com exceção das _branches_ principais (_main, gh-pages, devel_), cada _branch_ deve estar vinculada a uma única _issue_. Após a conclusão da _issue_ e fechamento do _pull request_ associado, a _branch_ referente não pode ser apagada, porque ela será utilizada para organização de pacotes de entregas para a release. Para uma correta padronização das branchs e fluxo, utilizaremos o [Gitflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=O%20que%20%C3%A9%20o%20Gitflow,por%20Vincent%20Driessen%20no%20nvie.) [[2]](#ref2).
 
@@ -70,7 +70,7 @@ documentation: Utilizado quando é necessário abrir uma branch de documentaçã
 hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug em produção no projeto.
 ```
 
-## Referência
+## 6. Referência
 
 <a id="ref1"></a>
 [1] O que são Commits Semânticos e como utilizo?. Disponível em: <https://www.letscode.com.br/blog/o-que-sao-commits-semanticos-e-como-utilizo>. Acesso em: maio, 2023.
@@ -78,10 +78,11 @@ hotfix: Utilizado quando é necessário abrir uma branch de correção de um bug
 <a id="ref2"></a>
 [2] Fluxo de trabalho de Gitflow. Disponível em: <https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=O%20que%20%C3%A9%20o%20Gitflow,por%20Vincent%20Driessen%20no%20nvie.>. Acesso em: maio, 2023.
 
-## Histórico de Revisão
+## 7. Histórico de Revisão
 
 | Data       | Versão | Modificação                     | Autor        |
 | :--------- | :----- | :------------------------------ | :----------- |
 | 05/05/2023 | 0.1    | Abertura do documento.          | Abner Filipe |
 | 05/05/2023 | 0.2    | Correção e revisão do documento | Rafael Leão  |
 | 18/05/2023 | 0.3    | Correção dos exemplos           | Juliana Valle|
+| 27/05/2023 | 0.4    | Refatoração da estrutura do documento | Juliana Valle |

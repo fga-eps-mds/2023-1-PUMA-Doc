@@ -1,11 +1,11 @@
 # Plano de Comunicação
 <style>body {text-align: justify}</style>
 
-## Introdução
+## 1. Introdução
 
 Este documento tem como objetivo explanar como será feita a comunicação entre os membros do Projeto PUMA durante o semestre 2023-1, para garantir que todos trabalhem juntos em todas as etapas, desde os requisitos até o código, de forma a possibilitar a elaboração da melhor solução para o problema.
 
-## Reuniões
+## 2. Reuniões
 
 Ao longo do semestre, o grupo terá diversas reuniões para desenvolver o projeto.
 
@@ -17,7 +17,7 @@ Reuniões Fixas:
 
 Conforme necessário, os membros de EPS e MDS podem agendar outras reuniões além destas para dar continuação ao desenvolvimento do projeto.
 
-## Ferramentas
+## 3. Ferramentas
 
 Para facilitar a comunicação entre os membros, as seguintes ferramentas serão utilizadas:
 
@@ -29,9 +29,9 @@ Para facilitar a comunicação entre os membros, as seguintes ferramentas serão
 |<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" width="70"/>  | **GitHub**    | Repositórios para documentos e código |
 
 
-## Disponibilidade da Equipe
+## 4. Disponibilidade da Equipe
 
-### Quadro de Disponibilidade
+### 4.1 Quadro de Disponibilidade
 
 ![Disponibilidade](../assets/disponibilidade.png)
 
@@ -41,8 +41,9 @@ Figura 1 - Quadro de Disponibilidade dos membros
 </figcaption>
 </center>
 
-## Histórico de Revisão
+## 5. Histórico de Revisão
 
 | Data       | Versão |      Modificação      |    Autor     |
 | :--------- | :----- | :-------------------- | :----------- |
 | 05/05/2023 | 0.1    | Abertura do documento.| Abner Filipe |
+| 27/05/2023 | 0.2    | Refatoração da estrutura do documento | Juliana Valle |
