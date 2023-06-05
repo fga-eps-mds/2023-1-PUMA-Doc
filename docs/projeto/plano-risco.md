@@ -59,123 +59,68 @@
 |    **Baixa**    |    6 a 10     |
 | **Muito Baixa** |     1 a 5     |
 
-### 4. Identificação dos Riscos
+### 4. Identificação dos riscos
 
-#### R01 - Divergência de horários entre membros da equipe
+#### Tabela de Riscos
 
-**Categoria:** Gerencial  
-**Causa:** Horários do time muito distintos 
-**Consequência:** Dificuldade para reunir toda a equipe e realizar os pareamentos entre o time  
-**Ação Preventiva:** Elaboração de planilhas de controle de horários  
-**Ação Reativa:** Planejar os pareamentos e reuniões baseado na planilha de horários
+| Risco | Descrição | Categoria |
+| :---: | :---: | :---: |
+| R01 | Horários incompatíveis entre os membros da equipe | Gerencial |
+| R02 | Dificuldades da equipe com a adoção de novas tecnologias | Técnico |
+| R03 | Falta de compromisso dos membros com o projeto | Gerencial |
+| R04 | Problemas de saúde devido a doenças infecciosas | Externo |
+| R05 | Erros durante o planejamento das atividades | Gerencial |
+| R06 | Falta de concentração dos membros durante as reuniões | Gerencial |
+| R07 | Conflito de horários com outras disciplinas | Organizacional |
+| R08 | Mudança no escopo do projeto | Gerencial |
+| R09 | Ausência de membros nas reuniões do grupo | Gerencial |
+| R10 | Dependência conflitante entre atividades | Organizacional |
+| R11 | Desistência da disciplina | Gerencial |
+| R12 | Falta de interação entre os membros da equipe | Gerencial |
+| R13 | Problemas com o funcionamento das estações de trabalho | Técnico |
+| R14 | Alteração das tecnologias utilizadas no projeto | Técnico |
 
-#### R02 - Dificuldades da equipe com as novas tecnologias inseridas
+#### Causa e Consequência dos Riscos
 
-**Categoria:** Técnico  
-**Causa:** Inexperiência de alguns membros  
-**Consequência:** Surgimento de dívidas técnicas pela dificuldade em realizar os objetivos propostos  
-**Ação Preventiva:** Realização de treinamentos efetivos nas tecnologias a serem utilizadas ao longo do semestre  
-**Ação Reativa:** Organizar pareamento para rotação do conhecimento
+| Risco | Causa | Consequência |
+| :---: | :---: | :---: |
+| R01 | Os membros da equipe têm horários muito diferentes uns dos outros | É difícil reunir toda a equipe e realizar os pareamentos necessários |
+| R02 | Alguns membros possuem pouca experiência com as tecnologias | Dívidas técnicas surgem devido à dificuldade em alcançar os objetivos estabelecidos |
+| R03 | Falta de motivação devido ao desânimo com o curso, problemas pessoais, questões de saúde, sobrecarga de compromissos, entre outros fatores | Não cumprimento de tarefas, acúmulo de dívidas técnicas e necessidade de replanejamento |
+| R04 | Presença de doenças infecciosas | Redução da capacidade de trabalho da equipe e atrasos no cumprimento do cronograma |
+| R05 | Inexperiência da equipe de gerenciamento | Distribuição inadequada do trabalho entre os membros da equipe |
+| R06 | Distrações variadas durante reuniões remotas e a falta de interação entre os integrantes | Reuniões longas e com resultados limitados |
+| R07 | Necessidade de cursar outras disciplinas para concluir a graduação | Atraso nas entregas ou qualidade inferior das entregas |
+| R08 | Mudanças no mercado e surgimento de novos requisitos | Necessidade de replanejamento do projeto |
+| R09 | Membros da equipe sobrecarregados ou desmotivados com o projeto | Membros perdidos nas etapas da sprint e maior carga de trabalho para alguns membros |
+| R10 | O escopo do projeto é consideravelmente complexo | Algumas atividades ficam paralisadas, aguardando a conclusão de outras |
+| R11 | Sobrecarga de trabalho, problemas pessoais, questões de saúde, entre outros fatores | Ausência de membros da equipe e sobrecarga dos membros restantes |
+| R12 | Realização de reuniões excessivamente formais e um ambiente focado exclusivamente em entregas | O trabalho se torna monótono e a qualidade é comprometida |
+| R13 | Ausência de uma boa conexão à internet e/ou falta de um computador funcional | Redução da capacidade de trabalho da equipe e atrasos no cumprimento do cronograma |
+| R14 | A tecnologia selecionada inicialmente não atende às necessidades do projeto | É necessário refatorar todo o trabalho realizado utilizando uma nova linguagem ou framework |
 
-#### R03 - Falta de comprometimento dos membros com o projeto
+#### Ação Preventiva e Ação Reativa para os Riscos
 
-**Categoria:** Gerencial  
-**Causa:** Desânimo com o curso, problemas pessoais ou de saúde, excesso de compromissos, entre outros  
-**Consequência:** Issues não entregues, dívida técnica e replanejamento  
-**Ação Preventiva:** Motivar os membros do grupo e não permitir que o trabalho se torne massante  
-**Ação Reativa:** Reorganizar o cronograma e entender o motivo da falta de comprometimento para tentar evitar que ele se repita
+| Risco | Ação Preventiva | Ação Reativa |
+| :---: | :---: | :---: |
+| R01 | Criar planilhas para controlar os horários de cada membro da equipe | Planejar os pareamentos e reuniões com base nas informações da planilha de horários |
+| R02 | Realizar treinamentos abrangentes nas tecnologias a serem utilizadas durante o semestre | Organizar sessões de pareamento para promover a rotação do conhecimento entre os membros da equipe |
+| R03 |  Estimular e motivar os membros do grupo, evitando que o trabalho se torne monótono e desgastante | Reajustar o cronograma e investigar as razões por trás da falta de comprometimento |
+| R04 | Adotar as recomendações de prevenção da Organização Mundial da Saúde | Reorganizar as atividades e fornecer suporte ao(s) membro(s) afetado(s) pela doença |
+| R05 | Ter um bom entendimento da capacidade da equipe e das necessidades do projeto | Avaliar as métricas do projeto para ajustar os planejamentos futuros |
+| R06 | Estabelecer um tempo limite para cada tópico da reunião e manter-se nos assuntos de interesse geral | Modificar a abordagem da reunião para torná-la mais descontraída, mantendo o foco na produtividade |
+| R07 | Estabelecer prazos claros e realizar um planejamento adequado | Priorizar as atividades de acordo com sua importância e urgência |
+| R08 | Realizar refinamentos contínuos nos requisitos e manter as funcionalidades atualizadas | Redefinir o escopo do projeto e redistribuir as tarefas de acordo com as novas necessidades |
+| R09 | Manter a equipe motivada e monitorar regularmente os horários para evitar conflitos | Transmitir o conteúdo das reuniões aos membros ausentes, a fim de mantê-los atualizados |
+| R10 | Realizar um planejamento detalhado e estabelecer prioridades a longo prazo | Concluir uma das tarefas o mais rápido possível, a fim de liberar a realização da próxima |
+| R11 | Encorajar a participação ativa dos membros da equipe e promover a união do time | Redistribuir as tarefas e ajustar o planejamento do projeto para lidar com a ausência dos membros e evitar sobrecarga nos demais |
+| R12 | Abordar as reuniões de forma mais descontraída e interagir com a equipe durante o tempo livre | Convidar os membros para participar de uma atividade divertida fora do contexto da disciplina |
+| R13 | Utilizar os computadores da faculdade | Realocar as atividades e revisar o cronograma para lidar com a situação e minimizar os atrasos |
+| R14 | Realizar estudos prévios sobre as tecnologias utilizadas e compreender suas capacidades antes de fazer a escolha | Incluir todos os membros da equipe na atividade de refatoração para acelerar o processo de execução |
+    
+### 5. Monitoramento dos Riscos
 
-#### R04 - Problemas pessoais ou de saúde
-
-**Categoria:** Externo  
-**Causa:** Doenças infecciosas
-**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
-**Ação Preventiva:** Seguir as recomendações de prevenção da Organização Mundial da Saúde  
-**Ação Reativa:** Remanejamento das atividades e apoio ao(s) membro(s) afetado(s)
-
-#### R05 - Erros durante o planejamento das atividades
-
-**Categoria:** Gerencial  
-**Causa:** Falta de experiência da equipe de Gerencial  
-**Consequência:** Trabalho mal distribuído entre os membros da equipe  
-**Ação Preventiva:** Conhecer bem a capacidade da equipe e as necessidades do projeto  
-**Ação Reativa:** Avaliar as métricas do projeto para regular os próximos planejamentos
-
-#### R06 - Falta de foco dos membros nas reuniões
-
-**Categoria:** Gerencial  
-**Causa:** Diversas distrações em um contexto de reuniões remotas e a falta de socialização em tempos de pandemia  
-**Consequência:** Reuniões longas e com poucos resultados  
-**Ação Preventiva:** Criar timebox para os tópicos da reunião e permanecer nos assuntos que são de interesse geral  
-**Ação Reativa:** Mudar a maneira como a reunião é conduzida de forma a deixá-la mais despojada sem perder o foco na produtividade
-
-#### R07 - Conflito com outras disciplinas
-
-**Categoria:** Organizacional  
-**Causa:** Necessidade, sendo alunos da UnB os membros da equipe precisam cursar outras disciplinas para conclusão da graduação  
-**Consequência:** Atraso nas entregas ou entregas mal feitas  
-**Ação Preventiva:** Organizar os prazos e fazer um planejamento  
-**Ação Reativa:** Priorização das atividades
-
-#### R08 - Alteração do escopo
-
-**Categoria:** Gerencial  
-**Causa:** Mudança no mercado, surgimento de novos requisitos  
-**Consequência:** Replanejamento do projeto  
-**Ação Preventiva:** Refinar constantemente os requisitos e manter as funcionalidades atualizadas  
-**Ação Reativa:** Redefinir o escopo e redistribuir tarefas
-
-#### R09 - Ausência de membros durante reuniões do grupo
-
-**Categoria:** Gerencial  
-**Causa:** Membros sobrecarregados ou desestimulados com o projeto  
-**Consequência:** Membros perdidos na sprint e maior carga de trabalho pro scrum para repassar o conteúdo da reunião aos que faltaram  
-**Ação Preventiva:** Manter a equipe estimulada e verificar constatemente os horários para que não haja conflito  
-**Ação Reativa:** Repassar o conteúdo da reunião aos membros faltantes
-
-#### R10 - Conflito de dependência entre atividades
-
-**Categoria:** Organizacional  
-**Causa:** Escopo razoavelmente complexo do projeto  
-**Consequência:** Atividade pausada esperando a conclusão de outra  
-**Ação Preventiva:** Planejar e priorizar as tarefas a longo prazo  
-**Ação Reativa:** Finalizar uma das tarefas o mais rápido possível para que a outra possa ser realizada
-
-#### R11 - Desistência da disciplina
-
-**Categoria:** Gerencial  
-**Causa:** Sobrecarga, problemas pessoais ou de saúde, entre outros  
-**Consequência:** Equipe desfalcada e sobrecarga dos membros que permanecem na matéria  
-**Ação Preventiva:** Incentivar a participação dos membros e a união do time  
-**Ação Reativa:** Redistribuir tarefas e refazer parte do planejamento do projeto
-
-#### R12 - Falta de interação entre a equipe
-
-**Categoria:** Gerencial  
-**Causa:** Reuniões muito formais e ambiente orientado somente a entregas  
-**Consequência:** Trabalho se torna massante e sua qualidade é reduzida  
-**Ação Preventiva:** Levar a reunião de um jeito informal e interagir com a equipe no tempo livre  
-**Ação Reativa:** Chamar os membros pra alguma atividade divertida fora do contexto da disciplina
-
-#### R13 - Problemas com a estação de trabalho
-
-**Categoria:** Técnico  
-**Causa:** Falta de acesso a uma boa internet e/ou a um computador funcionando  
-**Consequência:** Capacidade de trabalho da equipe prejudicada e atrasos no cronograma  
-**Ação Preventiva:** -  
-**Ação Reativa:** Remanejamento das atividades e revisão do cronograma
-
-#### R14 - Alteração das tecnologias
-
-**Categoria:** Técnico  
-**Causa:** Tecnologia previamente escolhida não consegue suprir as necessidades do projeto  
-**Consequência:** Refatorar tudo o que foi feito na nova linguagem/framework escolhido  
-**Ação Preventiva:** Estudar com antecedência as tecnologias utilizadas e suas capacidades  
-**Ação Reativa:** Incluir todos os membros na refatoração para que ela seja executada o mais rápido possivel
-
-### 5. Comportamento dos Riscos
-
-- Criar a planilha
+<iframe width="700" height="530" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSt4oWpER3JBJyE3s4pW2K5I19mOi9sIBwQlNcmV0j9hS2PmqXVWpYVdYUIGwREtb97FBzgaDuh11sN/pubhtml?gid=0&single=true"></iframe>
 
 ### 6. Referências
 
@@ -187,3 +132,4 @@
 | Data       | Versão | Modificação | Autor |
 | :--------- | :----- | :---------- | :---- |
 | 26/05/2023 | 0.1    | Criação e estruturação do documento | Daniel Barcelos |
+| 04/06/2023 | 0.2    | Adição do monitoramento dos riscos | Daniel Barcelos |
