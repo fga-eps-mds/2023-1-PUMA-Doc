@@ -61,4 +61,5 @@ Abaixo, temos o projeto EVM:
 
 | Data       | Versão |      Modificação      |    Autor     |
 | :--------- | :----- | :-------------------- | :----------- |
-| 28/05/2023 | 0.1    | Abertura do documento.| Guilherme Daniel Fernandes da Silva |
+| 28/05/2023 | 0.1    | Abertura do documento | Guilherme Daniel Fernandes da Silva |
+| 08/06/2023 | 0.5    | Adição do projeto EVM | Ítalo Alves Guimarães e Guilherme Daniel Fernandes da Silva |
