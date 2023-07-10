@@ -13,7 +13,7 @@ Uma EAP geralmente é apresentada como um diagrama de árvore, com o nível mais
 ## 3. Diagrama Versão 2
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKQGTTy0nTKfnrW3488Pcih%2FUntitled-(Copy)%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Ddm9M9ZuLBqmctn4I-1" allowfullscreen></iframe>
 
-## 3. Referência
+## 4. Referência
 <a id="ref1"></a>
 [1] VARGAS, Ricardo Viana. **Manual prático do plano de projeto util**. 5. ed. Rio de Janeiro: Brasport, 2014.
 
@@ -21,7 +21,7 @@ Uma EAP geralmente é apresentada como um diagrama de árvore, com o nível mais
 [2] PROJECT MANAGEMENT INSTITUTE. **A Guide to the Project Management Body of Knowledge (PMBOK Guide)**. 6th ed. Newtown Square, PA: Project Management Institute, 2017.
 
 
-## 4. Histórico de Revisão
+## 5. Histórico de Revisão
 
 | Data       | Versão | Modificação                     | Autor         |
 | :--------- | :----- | :------------------------------ | :-----------  |
