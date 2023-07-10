@@ -12,8 +12,6 @@ Repositório para documentação do projeto PUMA, desenvolvido pelos membros das
 
 [Project Service](https://github.com/fga-eps-mds/2023-1-PUMA-ProjectService)
 
-[External Service](https://github.com/fga-eps-mds/2023-1-PUMA-ExternalService)
-
 ## Time
 
 **Nome**          | **Matricula** | **GitHub**
