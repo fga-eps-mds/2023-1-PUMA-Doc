@@ -1,4 +1,4 @@
-# Plano de gerenciamento de riscos
+# Plano de Gerenciamento de Riscos
 
 ### 1. Introdução
 
