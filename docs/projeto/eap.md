@@ -7,8 +7,11 @@ Segundo Vargas (2015, p. 51), a Estrutura Analítica do Projeto (EAP), também c
 
 Uma EAP geralmente é apresentada como um diagrama de árvore, com o nível mais alto da hierarquia representando o objetivo geral do projeto. Os níveis abaixo do nível mais alto representam as entregas intermediárias necessárias para alcançar o objetivo geral, e os níveis mais baixos representam as atividades e tarefas específicas necessárias para produzir cada entrega. [[2]](#ref2)
 
-## 2. Diagrama
+## 2. Diagrama Versão 1
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FaJsy2kTbhhCeitiy79CCBd%2FUntitled%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3D1kVIw7vbeGgKnRSI-1" allowfullscreen></iframe>
+
+## 3. Diagrama Versão 2
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKQGTTy0nTKfnrW3488Pcih%2FUntitled-(Copy)%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Ddm9M9ZuLBqmctn4I-1" allowfullscreen></iframe>
 
 ## 3. Referência
 <a id="ref1"></a>
@@ -24,3 +27,4 @@ Uma EAP geralmente é apresentada como um diagrama de árvore, com o nível mais
 | :--------- | :----- | :------------------------------ | :-----------  |
 | 10/05/2023 | 0.1    | Abertura do documento.          | Juliana Valle |
 | 27/05/2023 | 0.2    | Refatoração da estrutura do documento | Juliana Valle |
+| 10/05/2023 | 0.3    | Adição da nova versão do EAP | Juliana Valle |
