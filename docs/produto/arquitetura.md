@@ -11,12 +11,12 @@ O PUMA é um sistema desenvolvido para dar suporte ao curso de Engenharia de Pro
 2. [Visão Geral](#geral);
 3. [Definições, Acrônimos e Abreviações](#def);
 4. [Relações](#relacoes);
+    - 4.1. [Arquitetura](#arquitetura)
 5. [Serviços](#servicos);
     - 5.1. [Frontend](#frontend)
     - 5.2. [Api Gateway](#gateway)
     - 5.3. [Project Service](#project)
     - 5.4. [User Service](#user)
-    - 5.5. [External Service](#external)
 6. [Tecnologias](#tecnologias);
     - 6.1 [Vue.js](#vue)
     - 6.2 [Node.js](#node)
@@ -35,10 +35,18 @@ O PUMA é um sistema desenvolvido para dar suporte ao curso de Engenharia de Pro
 | API   | Application Programming Interface (Interface de Programação de Aplicações) |
 
 ## 4. Relações {#relacoes}
-### 4.1. Visão Geral da Arquitetura
+### 4.1. Visão Geral da Arquitetura {#arquitetura}
 
+Utilizando como base a arquietura do semestre passado, optamos por manter a mesma estrutura, porém realizando a deleção dos serviços que não continham nenhum código, resultando na deleção do Alocate-Service e do Notify-Service.
 
+Além disso, durante o semestre, tinhamos implementado mais um serviço, o External-Service que seria responsável pelo gerenciamento do ambiente externo, porém ao percerbemos que as informações exibidas no ambiente externo possuía uma forte dependência com todas as models do Project-service, então optamos por manter a arquitetura da seguinte forma:
 
+![Arquitetura](../assets/diagrama-arquitetura.png)
+<center>
+<figcaption>
+Figura 1 - Diagrama de Visão Geral da Arquitetura
+</figcaption>
+</center>
 
 ## 5. Serviços {#servicos}
 ### 5.1. Frontend {#frontend}
@@ -55,8 +63,6 @@ O serviço [Project Service](https://github.com/fga-eps-mds/2023-1-PUMA-ProjectS
 ### 5.4. User Service {#user}
 
 O  [User Service](https://github.com/fga-eps-mds/2023-1-PUMA-UserService) é responsável por manter o controle de usuários, desde sua criação até o controle das rotas de acesso permitidas, criação de times dentre outros. Esse serviço é responsável por lidar com todas as operações que envolvem usuários no projeto Puma.
-
-### 5.5. External Service {#external}
 
 ## 6. Tecnologias {#tecnologias}
 
@@ -79,6 +85,15 @@ O Docker Compose é uma ferramenta para definir e executar aplicativos Docker de
 
 ## 7. Visão de dados {#visao}
 
+Devido a implementação de novas funcionalidades e principalmente após a implementação de perfis de usuário, tivemos refatorações nas tabelas do banco de dados, resultando na seguinte modelagem:
+
+![DLD](../assets/diagrama-logico.jpeg)
+<center>
+<figcaption>
+Figura 2: Diagrama Lógico de Dados
+</figcaption>
+</center>
+
 ## 8. Referências
 
 [1] Introduction. **Vue.js Guide**. Disponível em: [https://vuejs.org/guide/introduction.html](https://vuejs.org/guide/introduction.html).
@@ -92,8 +107,9 @@ O Docker Compose é uma ferramenta para definir e executar aplicativos Docker de
 
 ## 9. Histórico de Revisão
 
-| Data       | Versão | Modificação                     | Autor         |
-| :--------- | :----- | :------------------------------ | :-----------  |
-| 27/05/2023 | 0.1    | Abertura do documento.          | Juliana Valle |
+| Data       | Versão | Modificação                                   | Autor                      |
+| :--------- | :----- | :-------------------------------------------- | :------------------------- |
+| 27/05/2023 | 0.1    | Abertura do documento.                        | Juliana Valle              |
+| 10/06/2023 | 0.2    | Adição do diagrama de arquitetura e de dados  | Abner Filipe e Rafael Leão |
 
 
